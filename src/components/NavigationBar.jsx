@@ -1,8 +1,8 @@
 import React from 'react';
 import { Navbar, NavDropdown, Nav } from 'react-bootstrap';
+import { Switch, Route, Link } from 'react-router-dom';
 
 function NavigationBar(){
-
 
   return (
     <div className="navbarDiv">
@@ -54,14 +54,14 @@ function NavigationBar(){
 
 
     <Navbar collapseOnSelect expand="lg" variant="dark">
-  
+
     <Navbar.Brand className="kensKegsText" href="#home">Ken's Kegs</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
 
     <Nav>
-    <Nav.Link className='signInBox' href="#deets">Explore Kegs</Nav.Link>
+    <Nav.Link className='signInBox' href="/kegs">Explore Kegs</Nav.Link>
     </Nav>
 
     </Nav>
