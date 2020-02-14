@@ -10,8 +10,8 @@ function Header(){
     <div className="header-body">
       <NavigationBar/>
 
-      <Link to="/">Home</Link> | <Link to="/newbody">Do you wanna?</Link>
-      <img className='kenImage'src="https://i.imgur.com/ZYbTJtW.png" alt=""></img>
+      <Link to="/kegs">Home</Link> | <Link to="/newbody">Do you wanna?</Link>
+
 
 
       <style jsx>{`
@@ -25,12 +25,7 @@ function Header(){
             background-size: 100% 100%;
           }
 
-          .kenImage{
-            width: 200px;
-            position: absolute;
-            right: 1030px;
-            top: 235px;
-          }
+
 
 
           `}</style>

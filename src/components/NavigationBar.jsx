@@ -48,10 +48,14 @@ function NavigationBar(){
       .kensKegsText{
         background-color: black;
       }
+
+      .signInBox{
+        color: gray;
+      }
     `}</style>
 
 
-
+Link to="/kegs"
 
     <Navbar collapseOnSelect expand="lg" variant="dark">
 
@@ -59,17 +63,11 @@ function NavigationBar(){
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-
-    <Nav>
-    <Nav.Link className='signInBox' href="/kegs">Explore Kegs</Nav.Link>
-    </Nav>
-
+<Link className='signInBox' to="/kegs">Route Test</Link>
     </Nav>
     <Nav>
     <Nav.Link className='signInBox' href="#deets">Sign In</Nav.Link>
-    <Nav.Link className='postJob' eventKey={2} href="#memes">
-    About Ken
-    </Nav.Link>
+<Link className='signInBox' to="/about">About Ken</Link>
     </Nav>
     </Navbar.Collapse>
     </Navbar>

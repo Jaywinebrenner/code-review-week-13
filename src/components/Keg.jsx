@@ -9,6 +9,7 @@ function Keg(props){
           keg-card-body{
             text-align: center;
 
+
           }
           .keg-card {
             text-align: center;
@@ -20,7 +21,7 @@ function Keg(props){
             position: relative;
             padding: 0px;
             border-radius: 5px;
-
+            background-image: url("https://lh3.googleusercontent.com/proxy/n9lZQcGluim7rQrx1ScPDMtFdcnxIS6tL-ai9LZix53VT9ytloI4JxaTp1aB4vEtuBkMl9CQ1jRLqc7Z1dfHoLHdgMRsLuZZ1l3BQ-E9zmx5laol");
           }
           .keg-card-top{
             color: white;
