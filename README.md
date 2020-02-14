@@ -1,68 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Ascii Land
 
-## Available Scripts
+## By **Jay Winebrenner**
 
-In the project directory, you can run:
 
-### `yarn start`
+## Setup/Installation Requirements
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![image of Github repository file system](https://i.imgur.com/UStodOA.jpg "read")
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Zip:
 
-### `yarn test`
+1. Click [here](https://github.com/eliza85/ascii_group_project.git) to go to the repository location where you will find the clone/download menu.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ 2. Navigate to the directory (folder) that contains your browser's downloads via your terminal or Command Line interface.
+ 3. Double-click on **Ken's Kegs** directory (folder).
+ 4. Open the directory contents by extracting/unzipping the documents from the folder.
+ 5. Type // npm i // followed by // npm run start //. This will initialize Ken's Kegs and spin up the server. You can view the sight by visiting localhost:3000 in your browser.
 
-### `yarn build`
+- - -
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Specifications
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+![image of Github repository file system](https://i.imgur.com/lxA3QZq.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- - -
 
-### `yarn eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+ - React
+ - CSS
+ - HTML
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- - -
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Troubleshooting
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Can't install RMagick. Can't find libMagick or one of the dependent libraries. Check the mkmf.log file for more detailed information
 
-## Learn More
+Typically this message means that one or more of the libraries that ImageMagick
+depends on hasn't been installed. Examine the mkmf.log file in the ext/RMagick
+subdirectory of the installation directory for any error messages. These
+messages typically contain enough additional information for you to be able to
+diagnose the problem. Also see [this FAQ](https://web.archive.org/web/20131206133600/http://rmagick.rubyforge.org/install-faq.html#libmagick).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+On OS X with Homebrew, try (re)installing pkg-config:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+brew uninstall pkg-config
+brew install pkg-config
+brew unlink pkg-config
+brew link pkg-config
+```
+- - -
 
-### Code Splitting
+### Support and Contact
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+If you run into any issues or have any questions as about anything, please contact **Jay Winebrenner**. jaywinebrenner@gmail.com
 
-### Analyzing the Bundle Size
+### License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-### Making a Progressive Web App
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Copyright (c) 2020 **Eliza Sohn, George Acosta, Jay Winebrenner, or Chris Sanchez**
