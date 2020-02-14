@@ -67,10 +67,11 @@ Link to="/kegs"
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-<Link className='signInBox' to="/kegs">Puruse Ken's Kegs</Link>
+<Link className='signInBox' to="/kegs">Peruse Ken's Kegs</Link>
     </Nav>
     <Nav>
     <Nav.Link className='signInBox' href="#deets">Sign In</Nav.Link>
+    <Link className='signInBox' to="/newkegform">Employee Tools</Link>
 <Link className='signInBox' to="/about">About Ken</Link>
     </Nav>
     </Navbar.Collapse>

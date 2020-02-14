@@ -25,7 +25,13 @@ var masterKegList = [
 
 function KegList(){
   return (
-    <div>
+    <div className='keglist-div'>
+        <style jsx>{`
+            .keglist-div{
+              margin-top: 75px;
+              margin-bottom: 150px;
+            }
+        `}</style>
 
       {masterKegList.map((keg, index) =>
         <Keg name={keg.name}
