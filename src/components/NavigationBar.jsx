@@ -54,7 +54,7 @@ function NavigationBar(){
 
 
     <Navbar collapseOnSelect expand="lg" variant="dark">
-    <img src='https://w0.pngwave.com/png/710/708/andras-arato-ache-know-your-meme-meme-png-clip-art-thumbnail.png alt="Logo"' />
+  
     <Navbar.Brand className="kensKegsText" href="#home">Ken's Kegs</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">

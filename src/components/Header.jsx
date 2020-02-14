@@ -2,12 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import NavigationBar from './NavigationBar';
 
+
+
 function Header(){
 
   return (
     <div className="header-body">
       <NavigationBar/>
+
       <Link to="/">Home</Link> | <Link to="/newbody">Do you wanna?</Link>
+      <img className='kenImage'src="https://i.imgur.com/ZYbTJtW.png" alt=""></img>
+
 
       <style jsx>{`
           .header-body {
@@ -20,11 +25,18 @@ function Header(){
             background-size: 100% 100%;
           }
 
+          .kenImage{
+            width: 200px;
+            position: absolute;
+            right: 1030px;
+            top: 235px;
+          }
 
-            `}</style>
-          <button class='btn btn-primary' type="button">Click Me!</button>
-    </div>
-  );
-}
 
-export default Header;
+          `}</style>
+        <button class='btn btn-primary' type="button">Click Me!</button>
+      </div>
+    );
+  }
+
+  export default Header;
