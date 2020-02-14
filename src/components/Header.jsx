@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import NavigationBar from './NavigationBar';
+
 
 
 
@@ -8,7 +8,7 @@ function Header(){
 
   return (
     <div className="header-body">
-      <NavigationBar/>
+
 
       <Link to="/kegs">Home</Link> | <Link to="/newbody">Do you wanna?</Link>
 

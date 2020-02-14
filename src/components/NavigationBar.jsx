@@ -52,18 +52,22 @@ function NavigationBar(){
       .signInBox{
         color: gray;
       }
+      .whole-navbar{
+        background-color: black;
+      }
+
     `}</style>
 
 
 Link to="/kegs"
 
-    <Navbar collapseOnSelect expand="lg" variant="dark">
+    <Navbar className='whole-navbar' fixed="top" collapseOnSelect expand="lg" variant="dark">
 
     <Navbar.Brand className="kensKegsText" href="#home">Ken's Kegs</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-<Link className='signInBox' to="/kegs">Route Test</Link>
+<Link className='signInBox' to="/kegs">Puruse Ken's Kegs</Link>
     </Nav>
     <Nav>
     <Nav.Link className='signInBox' href="#deets">Sign In</Nav.Link>

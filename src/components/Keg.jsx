@@ -16,7 +16,7 @@ function Keg(props){
             border: 1px solid black;
             width: 400px;
             height: auto;
-            margin: 10px auto;
+            margin: 25px auto;
             padding: 10px;
             position: relative;
             padding: 0px;
