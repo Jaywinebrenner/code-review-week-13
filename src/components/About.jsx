@@ -9,14 +9,14 @@ function About(){
       <style jsx>{`
 
           .about-div{
-
+            height: 500px;
           }
 
           .kens-info-text{
             width: 400px;
             display: absolute;
             float:right;
-            top: 400px;
+            top: 800px;
             margin: 70px 200px 0 0;
             padding: 40px;
           }
@@ -25,7 +25,19 @@ function About(){
             width: 300px;
             right: 1030px;
             top: 235px;
+
+            position: absolute;
+            left: -100%;
+            margin: 388px -544px;
+            animation: slide 4s;
           }
+
+          @keyframes slide {
+    0% { left: -5%; }
+    100% { left: 50%; }
+    85% { left: 50%; }
+    100% { left: 150%; }
+}
 
           .about-subheader{
             text-align: center;
@@ -48,7 +60,7 @@ function About(){
 
 
           <img className='kenImage'src="https://i.imgur.com/ZYbTJtW.png" alt=""></img>
-  
+
 
         <div class='kens-info-text'>
           <h6>Hi, I'm Ken. Welcome to Ken's Kegs. I weigh 189 pounds and have an infected molar. I once met Michelle Pfeiffer and have a mint condiction Optimus Prime still in the box. This is where I plan to tell you about my fantastic Brewery and potentially go track down some lorem epsom. I don't know how to use a chop saw or bake bread.</h6>
