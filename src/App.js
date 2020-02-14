@@ -9,6 +9,7 @@ import About from './components/About';
 import NavigationBar from './components/NavigationBar';
 import Error404 from './components/Error404';
 import NewKegForm from './components/NewKegForm';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
              <Route component={Error404} />
 
       </Switch>
-
+      <Footer/>
     </div>
   );
 }

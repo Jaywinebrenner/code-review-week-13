@@ -7,19 +7,22 @@ var masterKegList = [
     name: 'IPAA',
     brand: 'Alcoholics Anonymous',
     price: '$45',
-    alcoholContent: '0%'
+    alcoholContent: '0%',
+    pintsLeft: '100'
   },
   {
     name: 'Rat Milk',
     brand: 'Animals R Us',
     price: '$34',
-    alcoholContent: '5%'
+    alcoholContent: '5%',
+    pintsLeft: '65'
   },
   {
     name: 'Pabst Yellow Ribbon',
     brand: 'Anonymous Corporate Conglomerate',
     price: '25$',
-    alcoholContent: '1.2%'
+    alcoholContent: '1.2%',
+    pintsLeft: '34'
   }
 ];
 
@@ -52,7 +55,7 @@ function KegList(){
           brand={keg.brand}
           price={keg.price}
           alcoholContent={keg.alcoholContent}
-
+          pintsLeft={keg.pintsLeft}
           key={index}/>
       )}
     </div>

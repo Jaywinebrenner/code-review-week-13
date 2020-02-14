@@ -20,6 +20,7 @@ function Keg(props){
             position: relative;
             padding: 0px;
             border-radius: 5px;
+      
             background-image: url("https://lh3.googleusercontent.com/proxy/n9lZQcGluim7rQrx1ScPDMtFdcnxIS6tL-ai9LZix53VT9ytloI4JxaTp1aB4vEtuBkMl9CQ1jRLqc7Z1dfHoLHdgMRsLuZZ1l3BQ-E9zmx5laol");
           }
 
@@ -27,6 +28,7 @@ function Keg(props){
             color: white;
             background-color: black;
             height: 45px;
+
           }
 
           .keg-card-bottom{
@@ -40,6 +42,10 @@ function Keg(props){
             left: 30px;
           }
 
+          .employee-edit-button{
+            border-radius: 5px;
+            margin-bottom: 5px;
+          }
 
 
 
@@ -53,9 +59,11 @@ function Keg(props){
             <img className='keg-card-image'src="https://i.imgur.com/ZYbTJtW.png" alt=""></img>
           </div>
           <div className='keg-card-bottom'>
-            <h4>{props.brand}</h4>
-            <h4>{props.price}</h4>
-            <h4>{props.alcoholContent}</h4>
+            <h3>{props.brand}</h3>
+            <h6>Price: {props.price}</h6>
+            <h6>Alcohol Content: {props.alcoholContent}</h6>
+            <h6> Pints Left: {props.pintsLeft}</h6>
+            <button className='employee-edit-button'>Employee Edit</button>
           </div>
         </div>
       </div>
@@ -66,7 +74,8 @@ function Keg(props){
     name: PropTypes.string.isRequired,
     brand: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
-    alcoholContent: PropTypes.number.isRequired
+    alcoholContent: PropTypes.number.isRequired,
+    pintsLeft: PropTypes.number.isRequired
   };
 
   export default Keg;

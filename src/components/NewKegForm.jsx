@@ -25,6 +25,7 @@ function NewKegForm(){
           .new-keglist-subheader{
             background-color: darkgray;
             color: white;
+            margin-bottom: 50px;
           }
 
           `}</style>
@@ -34,7 +35,7 @@ function NewKegForm(){
             </div>
 
         <h1>Hello Ken's Keg Employee</h1>
-        <h2>Please fill out the follwoing form to add a new Ken Keg</h2>
+        <h2>Please fill out the following form to add a new Ken Keg</h2>
         <form>
           <input
             class='newkeg-input'

@@ -17,7 +17,6 @@ function About(){
             display: absolute;
             float:right;
             top: 400px;
-
             margin: 70px 200px 0 0;
             padding: 40px;
           }
@@ -47,7 +46,9 @@ function About(){
           <h4 className='.about-ken-text'>About Ken</h4>
         </div>
 
-        <img className='kenImage'src="https://i.imgur.com/ZYbTJtW.png" alt=""></img>
+
+          <img className='kenImage'src="https://i.imgur.com/ZYbTJtW.png" alt=""></img>
+  
 
         <div class='kens-info-text'>
           <h6>Hi, I'm Ken. Welcome to Ken's Kegs. I weigh 189 pounds and have an infected molar. I once met Michelle Pfeiffer and have a mint condiction Optimus Prime still in the box. This is where I plan to tell you about my fantastic Brewery and potentially go track down some lorem epsom. I don't know how to use a chop saw or bake bread.</h6>
