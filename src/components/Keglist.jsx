@@ -26,12 +26,26 @@ var masterKegList = [
 function KegList(){
   return (
     <div className='keglist-div'>
+
+      <div className='keglist-subheader'>
+        <h4 className='.about-ken-text'>Available Kegs</h4>
+      </div>
+
         <style jsx>{`
             .keglist-div{
-              margin-top: 75px;
+              margin-top: 0px;
               margin-bottom: 150px;
             }
+
+            .keglist-subheader{
+              text-align: center;
+              background-color: darkgray;
+              color: white;
+            }
+
+
         `}</style>
+
 
       {masterKegList.map((keg, index) =>
         <Keg name={keg.name}

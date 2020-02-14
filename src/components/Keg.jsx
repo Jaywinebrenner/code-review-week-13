@@ -40,7 +40,13 @@ function Keg(props){
             left: 30px;
           }
 
+
+
+
           `}</style>
+
+
+
         <div className='keg-card'>
           <div className='keg-card-top'>
             <h2>{props.name}</h2>

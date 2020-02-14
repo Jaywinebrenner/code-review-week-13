@@ -22,7 +22,16 @@ function NewKegForm(){
 
           }
 
+          .new-keglist-subheader{
+            background-color: darkgray;
+            color: white;
+          }
+
           `}</style>
+
+          <div className='new-keglist-subheader'>
+              <h4>Employee Tools</h4>
+            </div>
 
         <h1>Hello Ken's Keg Employee</h1>
         <h2>Please fill out the follwoing form to add a new Ken Keg</h2>
