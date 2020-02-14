@@ -4,17 +4,19 @@ import Header from './components/Header';
 import Body from './components/Body';
 import { Switch, Route } from 'react-router-dom';
 import Keg from './components/Keg'
+import KegList from './components/KegList'
 
 function App() {
   return (
     <div>
-
+    <Header/>
+    <KegList/>
       <Switch>
 
-          <Route exact path='/' component={Header} />
-             <Route path='/kegs' component={Keg} />
+
+             <Route path='/kegs' component={KegList} />
       </Switch>
-      <Keg/>
+
 
     </div>
   );

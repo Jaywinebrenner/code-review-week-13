@@ -4,22 +4,22 @@ import Keg from './Keg';
 
 var masterKegList = [
   {
-    name: 'Ken and Blamp',
-    brand: '3A',
-    price: 'Firebase won\'t save record. Halp.'
-    alcoholContent: 'Firebase won\'t save record. Halp.'
+    name: 'IPAA',
+    brand: 'Alcoholics Anonymous',
+    price: '$45',
+    alcoholContent: '0%'
   },
   {
-    name: 'Ken and Blamp',
-    brand: '3A',
-    price: 'Firebase won\'t save record. Halp.'
-    alcoholContent: 'Firebase won\'t save record. Halp.'
+    name: 'Rat Milk',
+    brand: 'Animals R Us',
+    price: '$34',
+    alcoholContent: '5%'
   },
   {
-    name: 'Ken and Blamp',
-    brand: '3A',
-    price: 'Firebase won\'t save record. Halp.'
-    alcoholContent: 'Firebase won\'t save record. Halp.'
+    name: 'Pabst Yellow Ribbon',
+    brand: 'Anonymous Corporate Conglomerate',
+    price: '25$',
+    alcoholContent: '1.2%'
   }
 ];
 
@@ -28,7 +28,7 @@ function KegList(){
     <div>
       <hr/>
       {masterKegList.map((keg, index) =>
-        <Keg names={keg.name}
+        <Keg name={keg.name}
           brand={keg.brand}
           price={keg.price}
           alcoholContent={keg.alcoholContent}
