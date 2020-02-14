@@ -9,6 +9,7 @@ function App() {
     <div>
 
       <Switch>
+        <Header/>
           <Route exact path='/' component={Header} />
              <Route path='/newbody' component={Body} />
       </Switch>
