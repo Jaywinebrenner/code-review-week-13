@@ -51,9 +51,19 @@ function NavigationBar(){
 
       .signInBox{
         color: gray;
+      
+      }
+
+      .signInBox:hover{
+        color: #e88b3a;
       }
       .whole-navbar{
         background-color: black;
+      }
+
+      .kens-kegs-navbar-text{
+        color: #e88b3a;
+        font-weight: bold;
       }
 
     `}</style>
@@ -63,16 +73,17 @@ Link to="/kegs"
 
     <Navbar className='whole-navbar' fixed="top" collapseOnSelect expand="lg" variant="dark">
 
-    <Navbar.Brand className="kensKegsText" href="#home">Ken's Kegs</Navbar.Brand>
+
+    <h1 className='kens-kegs-navbar-text'>Ken's Kegs</h1>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-<Link className='signInBox' to="/kegs">Peruse Ken's Kegs</Link>
+<Link className='signInBox' style={{ textDecoration: 'none' }} to="/kegs">Peruse Ken's Kegs</Link>
     </Nav>
     <Nav>
     <Nav.Link className='signInBox' href="#deets">Sign In</Nav.Link>
-    <Link className='signInBox' to="/newkegform">Employee Tools</Link>
-<Link className='signInBox' to="/about">About Ken</Link>
+    <Link className='signInBox' style={{ textDecoration: 'none' }} to="/newkegform">Employee Tools</Link>
+<Link className='signInBox' style={{ textDecoration: 'none' }} to="/about">About Ken</Link>
     </Nav>
     </Navbar.Collapse>
     </Navbar>
