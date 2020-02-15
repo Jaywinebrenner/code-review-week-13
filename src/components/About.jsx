@@ -28,15 +28,15 @@ function About(){
 
             position: absolute;
             left: -100%;
-            margin: 388px -544px;
+            margin: 388px -604px;
             animation: slide 4s;
           }
 
           @keyframes slide {
-    0% { left: -5%; }
-    100% { left: 50%; }
+    100% { left: 100; }
+    100% { left: 100%; }
     85% { left: 50%; }
-    100% { left: 150%; }
+    100% { left: 0%; }
 }
 
           .about-subheader{

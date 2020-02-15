@@ -68,4 +68,9 @@ Copyright (c) 2020 **Jay Winebrenner**
 
 
 
-  <img className='bubble-image'src="https://lh3.googleusercontent.com/proxy/eHCLyvMnkhaI4XDk3-V-bkLvcz0nf1_Lp-o-DcM5-vppTmWCFn4Ail47W07JmdtirL9m21MdIm-qD5KVY2LBRHRxElDtD2WX17oL9vyrrGpikEFptVtxY8pdSqsQDL88uyE1IhkeHPjiTI7Sdtz6fOeJZ5WgGqM"></img>
+@keyframes slide {
+100% { left: 100; }
+100% { left: 100%; }
+85% { left: 50%; }
+100% { left: 50%; }
+}

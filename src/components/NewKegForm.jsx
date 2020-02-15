@@ -19,7 +19,6 @@ function NewKegForm(){
             border-radius: 5px;
             background-color: black;
             color: white;
-
           }
 
           .new-keglist-subheader{

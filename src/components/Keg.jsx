@@ -20,8 +20,8 @@ function Keg(props){
             position: relative;
             padding: 0px;
             border-radius: 5px;
-      
-            background-image: url("https://lh3.googleusercontent.com/proxy/n9lZQcGluim7rQrx1ScPDMtFdcnxIS6tL-ai9LZix53VT9ytloI4JxaTp1aB4vEtuBkMl9CQ1jRLqc7Z1dfHoLHdgMRsLuZZ1l3BQ-E9zmx5laol");
+            background-color: #e88b3a;
+            background-image: url("https://i.imgur.com/esyI5u2.jpg");
           }
 
           .keg-card-top{
