@@ -11,6 +11,7 @@ import Error404 from './components/Error404';
 import NewKegForm from './components/NewKegForm';
 import Footer from './components/Footer';
 import Welcome from './components/Welcome';
+import SignIn from './components/SignIn';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
              <Route path='/kegs' component={KegList} />
              <Route path='/about' component={About} />
              <Route path='/newkegform' component={NewKegForm} />
+             <Route path='/signin' component={SignIn} />
              <Route component={Error404} />
 
       </Switch>

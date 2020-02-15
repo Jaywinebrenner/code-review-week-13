@@ -29,7 +29,7 @@ function About(){
             position: absolute;
             left: -100%;
             margin: 388px -604px;
-            animation: slide 4s;
+            animation: slide 8s;
           }
 
           @keyframes slide {

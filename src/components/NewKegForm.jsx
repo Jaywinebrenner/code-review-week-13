@@ -32,6 +32,13 @@ function NewKegForm(){
             color: white;
             margin-bottom: 50px;
           }
+          @import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+          span{
+             font-family: 'Modak', cursive;
+             font-size: 4rem;
+               color: #e88b3a;
+
+          }
 
           `}</style>
 
@@ -39,9 +46,10 @@ function NewKegForm(){
               <h4>Employee Tools</h4>
             </div>
 
-        <h1>Hello Ken's Keg Employee</h1>
+        <h1>Hello <span>Ken's Keg</span> Employee</h1>
         <h2>Please fill out the following form to add a new Ken Keg</h2>
         <form>
+          <hr/>
           <input
             class='newkeg-input'
             type='text'
