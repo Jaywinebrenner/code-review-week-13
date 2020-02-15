@@ -37,7 +37,11 @@ function NewKegForm(){
              font-family: 'Modak', cursive;
              font-size: 4rem;
                color: #e88b3a;
+          }
 
+          .newkeg-input{
+            width: 220px;
+            border-radius: 5px;
           }
 
           `}</style>
@@ -46,7 +50,7 @@ function NewKegForm(){
               <h4>Employee Tools</h4>
             </div>
 
-        <h1>Hello <span>Ken's Keg</span> Employee</h1>
+        <h1>Hello <span>Ken's Kegs</span> Employee</h1>
         <h2>Please fill out the following form to add a new Ken Keg</h2>
         <form>
           <hr/>
@@ -64,15 +68,21 @@ function NewKegForm(){
           <br/>
           <input
             class='newkeg-input'
-            type='text'
+            type='number'
             id='price'
             placeholder='Price'/>
           <br/>
           <input
             class='newkeg-input'
-            type='text'
+            type='number'
             id='alcoholContent'
             placeholder='Alcohol Content'/>
+              <br/>
+            <input
+              class='newkeg-input'
+              type='number'
+              id='availablePints'
+              placeholder='Available Pints (Hint: 124)'/>
           <br/>
           <button class='newkeg-button'type='submit'>Enter New Keg</button>
         </form>

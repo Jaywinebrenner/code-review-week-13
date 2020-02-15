@@ -49,6 +49,12 @@ function Keg(props){
           .employee-edit-button{
             border-radius: 5px;
             margin-bottom: 5px;
+            margin-right: 10px;
+          }
+
+          .pint-sold-button{
+            border-radius: 5px;
+            margin-bottom: 5px;
           }
           .brand-text{
             color: white;
@@ -73,6 +79,7 @@ function Keg(props){
             <h6>Alcohol Content: {props.alcoholContent}</h6>
             <h6> Pints Left: {props.pintsLeft}</h6>
             <button className='employee-edit-button'>Employee Edit</button>
+              <button className='pint-sold-button'>Pint Sold</button>
           </div>
         </div>
       </div>
@@ -85,6 +92,7 @@ function Keg(props){
     price: PropTypes.number.isRequired,
     alcoholContent: PropTypes.number.isRequired,
     pintsLeft: PropTypes.number.isRequired
+
   };
 
   export default Keg;
