@@ -33,11 +33,11 @@ function About(){
           }
 
           @keyframes slide {
-    100% { left: 100; }
-    100% { left: 100%; }
-    85% { left: 50%; }
-    100% { left: 0%; }
-}
+            100% { left: 100; }
+            100% { left: 100%; }
+            85% { left: 50%; }
+            100% { left: 0%; }
+          }
 
           .about-subheader{
             text-align: center;
@@ -59,7 +59,7 @@ function About(){
         </div>
 
 
-          <img className='kenImage'src="https://i.imgur.com/ZYbTJtW.png" alt=""></img>
+        <img className='kenImage'src="https://i.imgur.com/ZYbTJtW.png" alt=""></img>
 
 
         <div class='kens-info-text'>

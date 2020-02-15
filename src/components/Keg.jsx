@@ -50,7 +50,12 @@ function Keg(props){
             border-radius: 5px;
             margin-bottom: 5px;
           }
-
+          .brand-text{
+            color: white;
+            font-weight: bold;
+            -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black;
+          }
 
 
           `}</style>
@@ -63,7 +68,7 @@ function Keg(props){
             <img className='keg-card-image'src="https://i.imgur.com/ZYbTJtW.png" alt=""></img>
           </div>
           <div className='keg-card-bottom'>
-            <h3>{props.brand}</h3>
+            <h3 className='brand-text'>{props.brand}</h3>
             <h6>Price: {props.price}</h6>
             <h6>Alcohol Content: {props.alcoholContent}</h6>
             <h6> Pints Left: {props.pintsLeft}</h6>

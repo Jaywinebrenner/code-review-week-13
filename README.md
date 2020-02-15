@@ -20,7 +20,7 @@
 
 ## Specifications
 
-![image of Github repository file system](https://i.imgur.com/lxA3QZq.png)
+![image of Github repository file system](https://i.imgur.com/6KRewiw.png)
 
 - - -
 
