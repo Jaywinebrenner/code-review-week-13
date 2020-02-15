@@ -10,6 +10,7 @@ import NavigationBar from './components/NavigationBar';
 import Error404 from './components/Error404';
 import NewKegForm from './components/NewKegForm';
 import Footer from './components/Footer';
+import Welcome from './components/Welcome';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
 
       <Switch>
 
+        <Route exact path="/" component={ Welcome } />
              <Route path='/kegs' component={KegList} />
              <Route path='/about' component={About} />
              <Route path='/newkegform' component={NewKegForm} />
