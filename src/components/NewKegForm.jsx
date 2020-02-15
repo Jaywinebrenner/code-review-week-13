@@ -19,6 +19,12 @@ function NewKegForm(){
             border-radius: 5px;
             background-color: black;
             color: white;
+              box-shadow: 2px 3px #888888;
+          }
+
+          .newkeg-button:hover{
+            color: black;
+            background-color: #e88b3a;
           }
 
           .new-keglist-subheader{

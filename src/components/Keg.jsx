@@ -21,7 +21,11 @@ function Keg(props){
             padding: 0px;
             border-radius: 5px;
             background-color: #e88b3a;
-            background-image: url("https://i.imgur.com/esyI5u2.jpg");
+            background-image: url("https://i.imgur.com/URD6dtv.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-size: 100% 100%;
           }
 
           .keg-card-top{
